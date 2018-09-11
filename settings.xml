@@ -1,0 +1,368 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<settings>
+
+  <!--Default Time Out Settings-->
+  <add key="General.DefaultClientSideTimeoutSeconds" value="3000" />
+  <add key="General.DefaultClientSideTimeoutPopupWaitSeconds" value="30" />
+  <add key="General.DefaultClientSideTimeoutMaximumNumberOfPopups" value="5" />
+  <!--Default Time Out Settings-->
+
+  <!-- Defines whether the Cufon support is enabled or not -->
+  <add key="Cufon.Enabled" value="false" />
+  <!-- Defines whether the client side performance tracing is enabled or not -->
+  <add key="ClientPerformanceTrace.Enabled" value="false" />
+  <!-- Defines whether grid pagination support is enabled or not -->
+  <add key="Grid.Pagination.Enabled" value="true" />
+  <!-- Defines grid pagination page size -->
+  <add key="Grid.Pagination.PageSize" value="5" />
+  <!-- Defines whether grid sorting support is enabled or not -->
+  <add key="Grid.Sorting.Enabled" value="true" />
+  <!-- Default Currency Code -->
+  <add key="General.DefaultCurrencyCode" value="888" />
+  <!-- Search Results Page Size -->
+  <add key="Search.Results.PageSize" value="10" />
+  <!-- Defines whether to show quickmenu after login -->
+  <add key="QuickMenu.ShowOnLogin" value="false" />
+  <!-- Blocked Company Names for Special Transfer -->
+  <add key="SpecialTransfer.BlockedCorporateNames" value="BİLYONER,NESİNE.COM,NESINE.COM,MİSLİ,MISLI,OLEY.COM,TUTTUR.COM" />
+  <!-- Breadcrumb maximum character number-->
+  <add key="PageStepViewerMaxCharacterNumber" value="84" />
+  <!-- Post login operation call (and default page card visibility) settings -->
+  <add key="PostLogin.CallAssets" value="true" />
+  <add key="PostLogin.CallPayments" value="true" />
+  <!-- BillPayment, HostFormatMethod property and validation methods varies with Order and Payment transactions -->
+  <add key="BillPayment.SelectedNavValuesPayment" value="BillPaymentPay,PaymentPerform" />
+  <add key="BillPayment.SelectedNavValuesOrder" value="BillPaymentOrder,BillPaymentOrderStatus,BillPaymentNewOrder,RecordedPaymentsNew,RecordedPaymentsUpdate,AutomaticPaymentOrder" />
+
+  <add key="Authentication.SMSTimeOutDuration" value="180" />
+  <add key="Authentication.MobileSignTimeoutDuration" value="90" />
+  <add key="Authentication.DataRefreshInterval.Corporate" value="300" />
+
+  <add key="Environment" value="@@MobileBranch_Settings_Environment@@" />
+  <!-- PROD, PREP, UAT, DEV -->
+
+  <add key="Menu.ThirdLevelDisabledTransactions"
+  value="ArifeTarifeTransactions,UpdateEmailWebInformationTransaction,PhoneFaxInformationUpdateNav,AdressInformationUpdate,FirmInformationDisplay,CallCenterOpeningClosing,MercantileExtractDemandUpdateCancel" />
+  <add key="Help.EnabledCorporateChildTransactions"
+  value="CreditCardInfoTransaction,CreditCardInfoAbstractOfAccountUnstated,CreditCardInfoUnstated,CreditCardInfoPendingProvision,ComingInstallments,BillPaymentOrdersCorporate" />
+
+  <add key="General.AlternateEmailServiceUseInterval" channel="InternetBanking">
+    <period>01032012-10032012</period>
+  </add>
+  <add key="General.AlternateEmailServiceUseInterval" channel="CreditCard">
+    <period>01032012-10032012</period>
+  </add>
+  <add key="General.DefaultPageCallsEdraWebServiceTimeout" value="5000"/>
+  <!-- ddMMyyyy -->
+  <!-- now>=begin && now<end 01102011-30112011-->
+
+  <add key="LiveChat.Enabled" value="false" />
+  <add key="LiveChat.ServerHost" value="ctidev" />
+  <add key="LiveChat.ServerPort" value="2020" />
+  <add key="LiveChat.ApplicationName" value="WebAPIServer_Veripark4" />
+  <add key="LiveChat.ChatSubject" value="Mortgage" />
+  <add key="LiveChat.PollInterval" value="5000" />
+  <add key="LiveChat.ShiftStart" value="9" />
+  <add key="LiveChat.ShiftEnd" value="20" />
+  <add key="LiveChat.HashKey" value="AKBANK%LIVE%CHAT" />
+  <add key="LiveChat.TypingCheckInterval" value="5000" />
+  <add key="LiveChat.TimeoutCheckInterval" value="1200000" />
+  <add key="LiveChat.ConnectionWaitTimeout" value="300000" />
+
+  <add key="LiveChat.ServiceName" value="request-chat" />
+  <add key="LiveChat.ServicePath" value="/genesys/1/service/" />
+  <add key="LiveChat.UrlHostPort" value="@@MobileBranch_LiveChat_UrlHostPort@@" />
+
+  <add key="VideoChat.URL" value="@@MobileBranch_Settings_VideoChat_URL@@" />
+  <add key="VideoChat.Destination" value="@@MobileBranch_Settings_VideoChat_Destination@@" />
+
+  <add key="ClickToCall.ServiceName" value="request-chat" />
+  <add key="ClickToCall.ServicePath" value="/genesys/1/service/" />
+  <add key="ClickToCall.UrlHostPort" value="@@MobileBranch_Settings_ClickToCall_UrlHostPort@@" />
+  <add key="ClickToCall.ActiveFlag" value="E" />
+  <add key="ClickToCall.SessionIdCM" value="30" />
+  <add key="ClickToCall.AMethod" value="3" />
+  <add key="ClickToCall.ARetry" value="1" />
+  <add key="ClickToCall.Parola" value="0" />
+  <add key="ClickToCall.Aks" value="0" />
+
+  <add key="LiveChat.ServerSpecificApplicationNames" value="INTSBPRODWEB1=WebAPIServer_Veripark_1&amp;INTSBPRODWEB2=WebAPIServer_Veripark_2&amp;INTSBPRODWEB3=WebAPIServer_Veripark_3&amp;INTSBPRODWEB4=WebAPIServer_Veripark_4&amp;INTSBPRODWEB5=WebAPIServer_Veripark_5&amp;INTSBPRODWEB6=WebAPIServer_Veripark_6&amp;INTSBPRODWEB7=WebAPIServer_Veripark_7&amp;INTSBPRODWEB8=WebAPIServer_Veripark_8&amp;INTSBPRODWEB9=WebAPIServer_Veripark_9&amp;INTSBPRODWEB10=WebAPIServer_Veripark_10" />
+
+  <add key="General.MainPopUpWindowWidth" value="1012" />
+  <add key="General.MainPopUpWindowHeight" value="700" />
+
+  <add key="General.InvestorLoginPostDataPage" value="/transactions/login/helperpages/InvestorLoginPostData.aspx" />
+
+  <add key="FileTransfer.OutputPath" value="C:\Projects\FileTransfer\" />
+  <add key="FileTransfer.SecureTextWhiteListPattern" value='[^A-Za-z0-9_@():ÇçĞğİıÖöŞşÜü\{\}\"\[\],\. -;|+]' />
+  <add key="FileTransfer.NewRequestWaitTime" value="300" />
+  <add key="FileTransfer.AccountActivitiesSite" value="http://localhost:4442/AccountActivities.UI/Default.aspx"/>
+
+  <add key="FlipCards.CorporateAllowedFlipCards" value="HESAP,DOVIZ,SON5ISLM,VARLIK,ODEMEKARTI,THSLTKARTI,LIMITKARTI" />
+  <add key="FlipCards.CorporateSpecificFlipCards" value="CorporatePayment" />
+
+  <add key="ValidateRequestUrl.Enabled" value="true" />
+  <add key="LoginAlertParameter" value="0"/>
+
+  <add key="changeDeviceClientIDDate" value="07.06.2016 05:00" />
+  <add key="campaignImageModifyDate" value="24.07.2018 05:00" />
+
+  <!-- Kayıp çalıntı ücretler -->
+  <add key="ReportCardFee.A" value="8" />
+  <add key="ReportCardFee.W" value="8" />
+  <add key="ReportCardFee.F" value="8" />
+  <add key="ReportCardFee.P" value="9"/>
+  <add key="ReportCardFee.Business" value="10"/>
+
+  <!-- vp edinim satış -->
+  <add key="VPEdinim.salesOpen" value ="false"/>
+
+  <add key="DemoShowFlag" value="E" />
+
+  <!-- hisse senetleri kartı-->
+  <add key="StockCard.TodayUrl" value ="http://graffx.akbank.com.tr/charts/{0}0.gif"/>
+  <add key="StockCard.ThreeMonthsUrl" value ="http://graffx.akbank.com.tr/charts/{0}1.gif"/>
+  <add key="StockCard.YearUrl" value ="http://graffx.akbank.com.tr/charts/{0}2.gif"/>
+
+  <add key="FingerPrintUsable" value ="true"/>
+
+  <add key="SecurityImage.RetailEnable" value ="false"/>
+  <add key="SecurityImage.CorporateEnable" value ="false"/>
+
+  <add key="WidgetCacheTimeOut" value ="5"/>
+  <add key="ShowWatchSettings" value="true"/>
+  <add key="CloseOverdraft" value="2"/>
+
+  <!-- Başvuru yapılabilien kartlar-->
+  <add key="CardApplication" value ="A,W,P" />
+  <add key="BusinessCardApplication" value="X,B"/>
+  <add key="PaymentDueDates" value ="1,2,3,4" />
+  <add key="AutomaticPayment" value ="M,T,N" />
+
+  <!-- Notification Center -->
+  <add key="NotificationCenterEnabled" value="true"/>
+  <add key="RedirectionEnabled" value="true"/>
+  <add key="InboxMaxItemCount" value="100"/>
+  <add key="WatchInboxMaxItemCount" value="20"/>
+  <add key="ShowNonMemberPopup" value="true"/>
+
+  <add key="RemoteDocumentLink" value ="@@MobileBranch_Settings_RemoteDocumentLink@@"/>
+  <add key="RemoteDocumentControl" value ="E"/>
+  <add key="RemoteDocumentLinkForWeb" value ="Akbank.Mobil.EntryPointService/api/EntryPointShowPdfFromUrl"/>
+  <add key="RemoteCreditLinkForWeb" value ="Akbank.Mobil.EntryPointService/api/EntryPointShowPdf"/>
+
+  <add key="RemoteVersion" value ="E"/>
+  <add key="WithdrawWithRefnoCrackBehavair" value ="0"/>
+  <add key="WithdrawWithRefnoCrackLimit" value ="1000"/>
+  <add key="WithdrawWithRefnoSuccessReqRun" value ="E"/>
+  <add key="appleTvPhoneFlag" value ="E"/>
+  <add key="appleTvFlag" value ="E"/>
+  <add key="appleTvKKPhoneFlag" value ="H"/>
+  <add key="appleTvCorpPhoneFlag" value ="H"/>
+
+  <!--BIST-Nasdaq-->
+  <add key="Stock.Nasdaq.RecoveryFlag" value ="false"/>
+  <!-- To enable stock options via old actions switch it to true -->
+  <add key="Stock.NasdaqDeclaration.Mode" value ="0"/>
+  <!--Handled values: 0 (Default) -> Show until Stock.NasdaqDeclaration.Date parameter, 1 -> Always show, 2 -> Never show-->
+  <add key="Stock.NasdaqDeclaration.Date" value ="01.02.2016 00:00"/>
+  <add key="Stock.Nasdaq.Proposal.MaxSize" value ="250"/>
+  <!-- Proposal array's length will be (MaxSize + 1)-->
+  <add key="Stock.Nasdaq.MigrationFlag" value ="1"/>
+  <!-- 0 -> Runs with nasdaq integration. 1 -> Force update -->
+
+  <add key="CorporateCloseCheckParameter" value = "H"/>
+  <add key="RetailKKCloseCheckParameter" value = "H"/>
+  <add key="RetailCloseCheckParameter" value = "H"/>
+  <add key="InvestorApptoAppParameter" value = "H"/>
+  <add key="InvestorApptoAppStoreParameter" value = "E"/>
+
+  <!-- AnaSayfaKartSorgulama / AnaSayfaKartGuncelleme WCF'e evrilmesi -->
+  <add key="mainPageCardWcfSource" value ="E"/>
+
+  <add key="ForeksNewsCacheTime" value="2"/>
+
+  <add key="FraudCheckOpen" value="E"/>
+  <add key="FraudCreditCheckOpen" value="H"/>
+  <add key="FraudCheckAmount" value="0"/>
+  <add key="NewDashboardServiceRequest" value="E"/>
+
+  <!-- HCE -->
+  <add key="HceEnablePostLoginTasks" value ="E" />
+  <add key="HceCmsUrl" value="@@MobileBranch_Settings_HceCmsUrl@@"/>
+  <add key="HceReplenishmentValue" value="3"/>
+  <add key="HceCriticValue" value="3"/>
+  <add key="HceAlertValue" value="0"/>
+  <add key="HceMaxCardCount" value="50"/>
+  <add key="HceMaxCardForSingleShot" value="3"/>
+  <add key="HceShowMenu" value="E"/>
+
+  <!-- Netmera -->
+  <add key="EnableDeviceOwnerCollection" value ="E" />
+
+  <add key="OverdraftDirectCreditNewAppCheck" value="E"/>
+
+  <add key="SelectIdentifyNewServiceFlag" value="E"/>
+
+  <add key="DirectCreditMaxMaturity" value="36"/>
+  <add key="DirectCreditMaxAmount" value="20000"/>
+  <add key="DirectCreditSGKDocumentID" value="10568"/>
+
+  <add key="B2cCreditMaxMaturity" value="6"/>
+  <add key="B2cCreditMaxAmount" value="15000"/>
+
+  <add key="CashAdvanceCampaignControl" value="1"/>
+  <!-- value: 1 -> Show update message -->
+  <add key="AutoBillPayCampaignControl" value="1"/>
+  <!-- value: 1 -> Show update message -->
+
+  <add key="YalovaSuErrorFlag" value="E"/>
+  <add key="EvoLisanceKey" value="g6ixo7Cwo7Kwt6OxrbOjsLKtsrGturq6ug=="/>
+  <add key="MobileSalesUpdateLoginFlag" value="E"/>
+  <add key="HybridBackButtonDisabled" value="E"/>
+  <add key="FaceRecognitionAttackControl" value="H"/>
+
+  <!-- Lidya Static Redirect Campaign -->
+  <add key="StaticCreditCardCampaingEnabled" value="@@MobileBranch_Settings_Axess_App_Static_Credit_Card_Campaing_Enabled@@"/>
+  <add key="StaticCreditCardCampaingImage" value="creditcardstaticredirect.gif"/>
+  <add key="StaticCreditCardCampaingImageWithCreditCard" value="creditcardstaticredirect.gif"/>
+  <add key="StoreLinkIos" value="@@MobileBranch_Settings_Axess_App_Store_Link_Ios@@"/>
+  <add key="StoreLinkAndroid" value="@@MobileBranch_Settings_Axess_App_Store_Link_Android@@"/>
+  <add key="AppLinkIos" value="@@MobileBranch_Settings_Axess_App_App_Link_Ios@@"/>
+  <add key="AppLinkAndroid" value="@@MobileBranch_Settings_Axess_App_App_Link_Android@@"/>
+
+  <add key="AskIgs" value="H"/>
+  <add key="AskIgsSendMoney" value="H"/>
+  <add key="AskIgsFamiliarAccount" value="H"/>
+  <add key="CorpAskIgs" value="H"/>
+  <add key="CorpAskIgsSendMoney" value="H"/>
+  <add key="CorpAskIgsFamiliarAccount" value="H"/>
+  <add key="IGSOTPConvertionForceUpdate" value ="H"/>
+  <add key="ChangeSecurityTypeToOtp" value ="E"/>
+  <add key="FamiliarAccountCheck" value ="DEP4283,DEP4285,DEP0272,DEP0171,DEPM020,DEP4216,DEP1251,DEPM115,DEPM119,DEPM143,DEPM129,DEPM127,DEPM130,CRC0071,SPE2174"/>
+  <add key="IGSOTPConvertionForceUpdateIgnoreList" value ="DirektKrediKullandirim"/>
+  <add key="IsSecureDeviceOperastionIgnoreList" value ="HizliParaSon,CashAdvance,CashAdvanceInstallmentsExecute,ArtiParaBasvuru"/>
+  <add key="MakeSecureDeviceControl" value ="E"/>
+
+
+  <!-- Withdraw money with QR code-->
+  <add key="WithdrawWithQrCrackBehavair" value ="0"/>
+  <add key="WithdrawWithQrCrackLimit" value ="1000"/>
+  <add key="WithdrawWithQrSuccessReqRun" value ="E"/>
+  <add key="WithdrawWithQrServiceMenuVisibility" value ="E"/>
+  <add key="WithdrawWithQrDeeplinkFormat" value ="@@MobileBranch_Settings_WithdrawWithQr_DeeplinkFormat@@"/>
+  <add key="WithdrawWithQrLocationRadius" value ="3000"/>
+
+  <add key="SafeDeviceCheck" value ="E"/>
+  <add key="SafeIpCheck" value ="10.129"/>
+
+  <!--Salla Kredi-->
+  <add key="SallaKrediTryLimit" value="2"/>
+  <add key="SallaKrediShowCampaign" value="1"/>
+
+  <!--BSA Hisse senedi servisleri-->
+  <add key="StockServiceSourceBSA" value="E" />
+
+
+  <!--FxOrderAlarm Pipe seperated currency codes-->
+  <add key="DisabledCurrencyCodesForFxAlarm" value=""/>
+  <add key="DisabledCurrencyCodesForFxOrder" value=""/>
+  <add key="AdminAppRefreshTime" value="180000"/>
+  <add key="AdminAppCheck" value="E"/>
+  <add key="AdminAppHardToken" value="A4F3A8224341F6BB3141D0561E459D5046D8B91CBF109546587DB6DD18DC9762" />
+  <add key="FxAlarmMaxAlarmOrderCount" value="10" />
+  <add key="FxAlarmShowMenu" value="E" />
+  <add key="IGSOTPConvertionForceUpdateDirectCredit" value ="E"/>
+
+  <!--ClosestBranch Limit Radius-->
+  <add key="ClosestBranch.FirstLimitRadius" value="2500"/>
+  <add key="ClosestBranch.SecondLimitRadius" value="5000"/>
+  <add key="ClosestBranch.ThirdLimitRadius" value="7500"/>
+
+  <!--ClosestBranch AR-->
+  <add key="ClosestBranch.SpeedLimitKM" value="8"/>
+  <add key="ClosestBranch.MaxRecordCount" value="5"/>
+  <add key="ClosestBranch.FilterRadiusMeter" value="500"/>
+  <!--Referanslı/Referanssız Ticari Kredi-->
+  <add key="CommercialLoanDefaultAmount" value="5000"/>
+  <add key="CommercialLoanMinAmount" value="5000"/>
+  <add key="CommercialLoanMaxAmount" value="100000"/>
+
+  <add key="EnableCampaignCount" value="False" />
+
+  <!-- KVkk Version -->
+  <add key="KvkkVersionNumber" value="4" />
+
+  <!--Ticari Kredi-->
+  <add key="LoanCreditMaxAmount" value="50000"/>
+  <add key="LoanCreditMinAmount" value="5000"/>
+  <add key="LoanCreditMaxMaturity" value="48"/>
+  <add key="LoanCreditDefaultAmount" value="20000"/>
+  <add key="LoanCreditDefaultAMaturity" value="12"/>
+  <add key="DigitalCreditTypes" value="InstalledCommercialLoan;BusinessLoan;SpotCredit"/>
+  <add key="WorkplaceOwnershipTypesAndCodes" value="Rent-1;CompanyOwned-2;CompanyPartnersOwned-3;GroupCompanyOwned-4;RelativesOfCompanyPartnersOwned-5"/>
+  <add key="LoanCreditCreditTeamMinYear" value="1900"/>
+  <add key="IsimPaketId" value="1" />
+
+
+  <add key="KirmiziKaskoCreateOfferTimeout" value="55" />
+  <!-- Bagis Odemeleri -->
+  <add key="DonationPaymentMenuVisibility" value ="E"/>
+  <add key="ShowKirmiziKaskoInEN" value="false"/>
+  <add key="ShowKirmiziKaskoInTR" value="true"/>
+  <add key="ShowKirmiziKaskoCompulsoryTrafficInsuranceOfferEN" value="false"/>
+  <add key="ShowKirmiziKaskoCompulsoryTrafficInsuranceOfferTR" value="true"/>
+
+
+
+  <!-- New GSM Payment Switch-->
+  <add key="UseNewGsmCreditService" value="E" />
+
+  <!-- Sim blokaj flag -->
+  <add key="SimBlokajCheckFlag" value="H" />
+
+  <!-- Withdraw money with RefNo-->
+  <add key="WithdrawWithRefNoLocationRadius" value="3000" />
+  <add key="WithdrawWithRefNoDisabled" value="H" />
+  <add key="WithdrawWithRefNoForceUpdate" value="H" />
+  <add key="FaceRecognation_ShowOffer" value="1" />
+  <add key="FaceRecognation_ShowSelfieLoginInServiceMenu" value="1" />
+
+  <add key="EcommBlockerActiveCredit" value="0" />
+  <add key="EcommBlockerActiveCreditInsurance" value="0" />
+  <add key="EcommBlockerActiveBillPay" value="0" />
+  <add key="EcommBlockerActiveHGS" value="1" />
+  <add key="EcommBlockerActiveGSM" value="1" />
+  <add key="EcommBlockerActiveSendMoney" value="1" />
+  <add key="EcommBlockerActiveMTV" value="1" />
+  <add key="EcommBlockerActiveSGK" value="1" />
+  <add key="EcommBlockerActiveTPC" value="1" />
+  <add key="EcommBlockerActiveKurum" value="1" />
+  <add key="EcommBlockerActiveKirmiziKasko" value="1" />
+  <add key="EcommBlockerActiveEFT" value="1" />
+  <add key="EcommBlockerActiveHavale" value="1" />
+
+  <add key="EcommActiveCredit" value="1" />
+  <add key="EcommActiveCreditInsurance" value="1" />
+  <add key="EcommActiveBillPay" value="1" />
+  <add key="EcommActiveHGS" value="1" />
+  <add key="EcommActiveGSM" value="1" />
+  <add key="EcommActiveSendMoney" value="1" />
+  <add key="EcommActiveMTV" value="1" />
+  <add key="EcommActiveSGK" value="1" />
+  <add key="EcommActiveTPC" value="1" />
+  <add key="EcommActiveKurum" value="1" />
+  <add key="EcommActiveKirmiziKasko" value="1" />
+  <add key="EcommActiveEFT" value="1" />
+  <add key="EcommActiveHavale" value="1" />
+  <add key="StockBuySellInfo" value="E" />
+
+  <!--Kurum Ödemeleri-->
+  <add key="InsPaymentMenu" value="E" />
+  <add key="InsPaymentEducationMenu" value="E" />
+  <add key="InsPaymentFinanceMenu" value="E" />
+  <add key="InsPaymentRevenuesMenu" value="E" />
+  <add key="InsPaymentMembershipFeeMenu" value="E" />
+  <add key="InsPaymentOtherPaymentMenu" value="E" />
+
+</settings>

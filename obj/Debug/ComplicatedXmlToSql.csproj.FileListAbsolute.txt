@@ -1,0 +1,7 @@
+c:\users\etuna\source\repos\ComplicatedXmlToSql\ComplicatedXmlToSql\bin\Debug\ComplicatedXmlToSql.exe.config
+c:\users\etuna\source\repos\ComplicatedXmlToSql\ComplicatedXmlToSql\bin\Debug\ComplicatedXmlToSql.exe
+c:\users\etuna\source\repos\ComplicatedXmlToSql\ComplicatedXmlToSql\bin\Debug\ComplicatedXmlToSql.pdb
+c:\users\etuna\source\repos\ComplicatedXmlToSql\ComplicatedXmlToSql\obj\Debug\ComplicatedXmlToSql.csprojResolveAssemblyReference.cache
+c:\users\etuna\source\repos\ComplicatedXmlToSql\ComplicatedXmlToSql\obj\Debug\ComplicatedXmlToSql.csproj.CoreCompileInputs.cache
+c:\users\etuna\source\repos\ComplicatedXmlToSql\ComplicatedXmlToSql\obj\Debug\ComplicatedXmlToSql.exe
+c:\users\etuna\source\repos\ComplicatedXmlToSql\ComplicatedXmlToSql\obj\Debug\ComplicatedXmlToSql.pdb
